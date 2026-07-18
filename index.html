@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ЦВЕТ — флористическая студия под повод</title>
+  <meta name="description" content="Студия «Цвет» собирает букеты и оформление под конкретную дату — свадьбу, годовщину, день рождения. Один флорист на заказ, доставка день в день.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500;1,600&family=Mulish:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="wrap header__wrap">
+      <a href="#top" class="logo">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="30" height="30" fill="none">
+            <path d="M20 6 C20 6 26 12 20 20 C14 12 20 6 20 6Z" stroke="currentColor" stroke-width="1.4"/>
+            <path d="M6 20 C6 20 12 14 20 20 C12 26 6 20 6 20Z" stroke="currentColor" stroke-width="1.4"/>
+            <path d="M34 20 C34 20 28 14 20 20 C28 26 34 20 34 20Z" stroke="currentColor" stroke-width="1.4"/>
+            <path d="M20 34 C20 34 14 28 20 20 C26 28 20 34 20 34Z" stroke="currentColor" stroke-width="1.4"/>
+            <circle cx="20" cy="20" r="2.6" fill="currentColor"/>
+          </svg>
+        </span>
+        ЦВЕТ
+      </a>
+
+      <nav class="nav" id="nav">
+        <a href="#about">О студии</a>
+        <a href="#process">Процесс</a>
+        <a href="#season">Сезон</a>
+        <a href="#works">Работы</a>
+        <a href="#reviews">Отзывы</a>
+      </nav>
+
+      <a href="#contact" class="btn btn--small header__cta">Обсудить букет</a>
+
+      <button class="burger" id="burger" aria-label="Открыть меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="hero__blob" aria-hidden="true"></div>
+      <div class="hero__sprig" aria-hidden="true">
+        <svg viewBox="0 0 260 420" width="100%" height="100%">
+          <path d="M130 410 C130 340 126 280 130 170" class="sprig__stem"/>
+          <path d="M130 280 C 92 270 70 236 82 202 C 108 222 130 254 130 280 Z" class="sprig__leaf"/>
+          <path d="M130 236 C 168 226 190 192 178 158 C 152 178 130 212 130 236 Z" class="sprig__leaf"/>
+          <path d="M130 170 C 110 146 106 108 130 72 C 154 108 150 146 130 170 Z" class="sprig__bloom"/>
+        </svg>
+      </div>
+
+      <div class="wrap hero__wrap">
+        <p class="eyebrow">Флористическая студия · Санкт-Петербург</p>
+        <h1 class="hero__title">
+          Букеты под повод,<br>
+          <em>не под витрину</em>
+        </h1>
+        <p class="hero__lead">
+          Собираем композиции под конкретную дату — свадьбу, годовщину, выписку из роддома —
+          а не берём их с полки у входа. Цветы едут к вам в день сборки, а не лежат в вазе неделю.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Подобрать букет</a>
+          <a href="#works" class="btn btn--ghost">Смотреть работы</a>
+        </div>
+
+        <ul class="hero__facts">
+          <li><span>9&nbsp;лет</span>оформляем события</li>
+          <li><span>420+</span>собранных композиций</li>
+          <li><span>12</span>цветочных ферм-поставщиков</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about" id="about">
+      <div class="wrap about__wrap">
+        <div class="about__text">
+          <p class="section-label">О студии</p>
+          <h2>Собираем не из каталога,<br>а под ваш повод</h2>
+          <p>
+            Большинство студий держат три готовых букета у входа — «на день рождения»,
+            «на свадьбу», «извиниться». Мы начинаем разговор не с каталога, а с повода:
+            какой это день, кто получит цветы, что должно быть понятно без слов.
+          </p>
+          <p>
+            Уже после этого подбираем сорта, палитру и форму — так, чтобы композиция
+            была про конкретную дату, а не про усреднённый вкус витрины.
+          </p>
+        </div>
+
+        <dl class="about__stats">
+          <div>
+            <dt>Один флорист на заказ</dt>
+            <dd>Композицию от эскиза до доставки ведёт один человек, а не цех сборки.</dd>
+          </div>
+          <div>
+            <dt>Цветы одной срезки</dt>
+            <dd>Букет собирается из одной партии среза, чтобы оттенки и раскрытие совпадали.</dd>
+          </div>
+          <div>
+            <dt>Доставка день в день</dt>
+            <dd>Везём цветы в день сборки в вёдрах с водой, а не держим сутками в коробке.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ===== PROCESS ===== -->
+    <section class="process" id="process">
+      <div class="wrap">
+        <p class="section-label section-label--light">Как собирается заказ</p>
+        <h2 class="process__title">Четыре шага — от повода до доставки</h2>
+
+        <ol class="process__list">
+          <li class="process__item reveal">
+            <span class="process__icon" aria-hidden="true">
+              <svg viewBox="0 0 60 60"><path d="M30 46 C30 36 24 30 30 20 C36 30 30 36 30 46Z"/></svg>
+            </span>
+            <h3>Консультация и повод</h3>
+            <p>Узнаём дату, место и историю повода — это определяет тон композиции ещё до выбора цветов.</p>
+          </li>
+
+          <li class="process__item reveal">
+            <span class="process__icon" aria-hidden="true">
+              <svg viewBox="0 0 60 60"><path d="M30 46 C30 36 24 30 30 20 C36 30 30 36 30 46Z"/><path d="M30 34 C30 34 20 30 18 20 C26 20 30 28 30 34Z"/></svg>
+            </span>
+            <h3>Подбор цветов и палитры</h3>
+            <p>Выбираем сорта и оттенки под сезон, место проведения и характер повода.</p>
+          </li>
+
+          <li class="process__item reveal">
+            <span class="process__icon" aria-hidden="true">
+              <svg viewBox="0 0 60 60"><path d="M30 46 C30 36 24 30 30 20 C36 30 30 36 30 46Z"/><path d="M30 34 C30 34 20 30 18 20 C26 20 30 28 30 34Z"/><path d="M30 28 C30 28 40 24 42 14 C34 14 30 22 30 28Z"/></svg>
+            </span>
+            <h3>Ручная сборка</h3>
+            <p>Собираем каждую композицию вручную, без флористической пены — на каркасе из веток и мха.</p>
+          </li>
+
+          <li class="process__item reveal">
+            <span class="process__icon" aria-hidden="true">
+              <svg viewBox="0 0 60 60"><path d="M30 46 C30 36 24 30 30 20 C36 30 30 36 30 46Z"/><path d="M30 34 C30 34 20 30 18 20 C26 20 30 28 30 34Z"/><path d="M30 28 C30 28 40 24 42 14 C34 14 30 22 30 28Z"/><path d="M20 50 h20" class="dash"/></svg>
+            </span>
+            <h3>Доставка день в день</h3>
+            <p>Везём в специальных вёдрах с водой в день сборки — цветы раскрываются уже у вас.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== SEASON WHEEL (interactive) ===== -->
+    <section class="season" id="season" data-season="summer">
+      <div class="wrap">
+        <p class="section-label">Сезон</p>
+        <h2>Один и тот же букет звучит по-разному в разный сезон</h2>
+
+        <div class="season-picker">
+          <div class="season-picker__wheel">
+            <svg viewBox="0 0 240 240" width="240" height="240" id="seasonWheel">
+              <path d="M120 120 L120 10 A110 110 0 0 1 230 120 Z" data-season="summer" class="wedge is-active"></path>
+              <path d="M120 120 L230 120 A110 110 0 0 1 120 230 Z" data-season="autumn" class="wedge"></path>
+              <path d="M120 120 L120 230 A110 110 0 0 1 10 120 Z" data-season="winter" class="wedge"></path>
+              <path d="M120 120 L10 120 A110 110 0 0 1 120 10 Z" data-season="spring" class="wedge"></path>
+              <circle cx="120" cy="120" r="46" class="wheel-center"></circle>
+              <text x="120" y="116" text-anchor="middle" class="wheel-label" id="wheelLabel">Лето</text>
+              <text x="120" y="134" text-anchor="middle" class="wheel-sub">нажмите сезон</text>
+            </svg>
+          </div>
+
+          <div class="season-picker__info">
+            <h3 id="seasonName">Лето</h3>
+            <p id="seasonDesc">Пионы, дельфиниум и скабиоза — самый долгий и щедрый сезон живых цветов, три недели пионов в июне держат весь стиль лета.</p>
+            <ul class="season-picker__meta">
+              <li><span>Главные цветы</span><b id="seasonFlowers">пионы, дельфиниум, скабиоза</b></li>
+              <li><span>Палитра</span><b id="seasonPalette">свежая, разноцветная</b></li>
+              <li><span>Особенность</span><b id="seasonNote">самый долгий сезон живого среза</b></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== WORKS ===== -->
+    <section class="works" id="works">
+      <div class="wrap">
+        <p class="section-label">Работы</p>
+        <h2>Несколько композиций из последних сезонов</h2>
+
+        <div class="works__grid">
+          <article class="work-card reveal">
+            <div class="work-card__slab work-card__slab--spring"></div>
+            <h3>Каскад «Утренний свет»</h3>
+            <p>Пионы и ранункулюсы, пастельная гамма для летней церемонии на воде.</p>
+          </article>
+
+          <article class="work-card reveal">
+            <div class="work-card__slab work-card__slab--summer"></div>
+            <h3>Композиция «Августовский стол»</h3>
+            <p>Георгины и физалис на низкой вазе — банкетная композиция без острых стеблей.</p>
+          </article>
+
+          <article class="work-card reveal">
+            <div class="work-card__slab work-card__slab--autumn"></div>
+            <h3>Букет «Тихий понедельник»</h3>
+            <p>Моно-букет из одного вида цветов — часть еженедельной цветочной подписки.</p>
+          </article>
+
+          <article class="work-card reveal">
+            <div class="work-card__slab work-card__slab--winter"></div>
+            <h3>Венок «Зимний вечер»</h3>
+            <p>Эвкалипт и хвоя с восковыми свечами — оформление новогоднего стола.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== REVIEWS ===== -->
+    <section class="reviews" id="reviews">
+      <div class="wrap">
+        <p class="section-label section-label--light">Отзывы</p>
+        <h2 class="reviews__title">Что говорят те, для кого мы собирали повод</h2>
+
+        <div class="reviews__carousel">
+          <button class="reviews__nav reviews__nav--prev" id="reviewPrev" aria-label="Предыдущий отзыв">‹</button>
+
+          <div class="reviews__track" id="reviewTrack">
+            <blockquote class="review is-active">
+              <p>«Рассказала флористу историю знакомства с мужем — букет на годовщину собрали именно из тех цветов, что были в первом букете десять лет назад.»</p>
+              <cite>Дарья, годовщина свадьбы</cite>
+            </blockquote>
+            <blockquote class="review">
+              <p>«Привезли композицию на банкет ровно к сервировке стола, ни одна ветка не помялась в дороге. Собирали с учётом высоты бокалов.»</p>
+              <cite>Тимур, банкет на 40 человек</cite>
+            </blockquote>
+            <blockquote class="review">
+              <p>«Подписка на еженедельный букет — то немногое, что я не отменила за этот год. Каждый раз разные цветы, никогда не повторяется.»</p>
+              <cite>Ольга, недельная подписка</cite>
+            </blockquote>
+          </div>
+
+          <button class="reviews__nav reviews__nav--next" id="reviewNext" aria-label="Следующий отзыв">›</button>
+        </div>
+
+        <div class="reviews__dots" id="reviewDots"></div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact" id="contact">
+      <div class="wrap contact__wrap">
+        <div class="contact__intro">
+          <p class="section-label">Начать заказ</p>
+          <h2>Расскажите о поводе —<br>подберём цветы вместе</h2>
+          <p class="contact__note">
+            Ответим в течение дня и предложим варианты палитры под дату.
+            Эскиз композиции — бесплатно.
+          </p>
+        </div>
+
+        <form class="contact__form" id="contactForm" novalidate>
+          <div class="field">
+            <label for="name">Имя</label>
+            <input type="text" id="name" name="name" placeholder="Как к вам обращаться" required>
+          </div>
+
+          <div class="field">
+            <label for="date">Дата события</label>
+            <input type="text" id="date" name="date" placeholder="Например: 14 сентября">
+          </div>
+
+          <div class="field">
+            <label for="phone">Телефон или почта</label>
+            <input type="text" id="phone" name="phone" placeholder="+7 ... или email" required>
+          </div>
+
+          <div class="field">
+            <label for="message">Повод и пожелания</label>
+            <textarea id="message" name="message" rows="4" placeholder="Например: годовщина свадьбы, любим пионы и лаванду"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--wide">Отправить заявку</button>
+          <p class="contact__status" id="contactStatus" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="wrap footer__wrap">
+      <a href="#top" class="logo logo--footer">
+        <span class="logo__mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" width="26" height="26" fill="none">
+            <path d="M20 6 C20 6 26 12 20 20 C14 12 20 6 20 6Z" stroke="currentColor" stroke-width="1.4"/>
+            <path d="M6 20 C6 20 12 14 20 20 C12 26 6 20 6 20Z" stroke="currentColor" stroke-width="1.4"/>
+            <path d="M34 20 C34 20 28 14 20 20 C28 26 34 20 34 20Z" stroke="currentColor" stroke-width="1.4"/>
+            <path d="M20 34 C20 34 14 28 20 20 C26 28 20 34 20 34Z" stroke="currentColor" stroke-width="1.4"/>
+            <circle cx="20" cy="20" r="2.6" fill="currentColor"/>
+          </svg>
+        </span>
+        ЦВЕТ
+      </a>
+
+      <nav class="footer__nav">
+        <a href="#about">О студии</a>
+        <a href="#process">Процесс</a>
+        <a href="#season">Сезон</a>
+        <a href="#works">Работы</a>
+        <a href="#reviews">Отзывы</a>
+        <a href="#contact">Контакты</a>
+      </nav>
+
+      <p class="footer__meta">Студия «Цвет» · Санкт-Петербург · цветы закупаются напрямую у местных ферм-поставщиков</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
